@@ -37,20 +37,11 @@ function rodgers (num) {
       console.log(numArray);
     for (let i =0; i <= numIntiger; i++) {
       numArray.push(i);
-      }
-    numArray.toString();
-    for (let i =0; i <= numArray; i++) {
-      if (numArray[i].includes(1)){
-        numArray[i] = vocab[0]
-        console.log(numArray);
-      }
+      stringArray = numArray.toString();
+    
+
+    }
       
-      }
-      
-    //for (let i = 0; i <= numArray; i++) {
-    //  if (numArray[i].includes(1))
-    //  numArray[i].push(vocab[0]);
-    //}
     }
 
 }
