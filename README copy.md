@@ -10,6 +10,10 @@ _{The purpose of this application is to showcase my understanding thus far of ar
 
 _This application can be broken down into distinct behaviors_
 
+_Behavior 3 has priority over 2 and 1, and 2 has priority over 1_
+_Input: 32 or 21
+_Suggested output: "Won't you be my neighbor?" or "Boop!_
+
 _Behavior 0 - A user inputs anything other than a number._
 _Input: This is a number!_
 _Suggested output: "That is not a number! Please enter a number!"_
