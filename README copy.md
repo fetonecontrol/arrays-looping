@@ -1,37 +1,65 @@
-# _{Application Name}_
+# _{Mr Rodgers Neighborhood}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Takes user input and translates it into Beeps, Boops, and Wont you be my neighbors}, {6-12-20}_
 
-#### By _**{List of contributors}**_
+#### By _**{Frederick Ernest}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{The purpose of this application is to showcase my understanding thus far of arrays and loops in Javascript, Utilitizing logic that converts numbers containing 1, 2, or 3, into Beep, Boop, or "Won't you be my neighbor?"}_
+
+_This application can be broken down into distinct behaviors_
+
+_Behavior 0 - A user inputs anything other than a number._
+_Input: This is a number!_
+_Suggested output: "That is not a number! Please enter a number!"_
+
+_Behavior 1 - A user inputs a number containing 1, and all digitst are replaced with "Beep!"_
+_Input: 1 or 15 or 41 or 71_
+_Suggested output: Beep!_
+
+_Behavior 2 - A user inputs a number containing 2, and all digitst are replaced with "Boop!"_
+_Input: 2 or 25 or 42 or 72_
+_Suggested output: Boop!_
+
+_Behavior 3 - A user inputs a number containing 3, and all digitst are replaced with "Won't you be my neighbor?"_
+_Input: 3 or 35 or 43 or 73_
+_Suggested output: Won't you be my neighbor?_
+
+_Behavior 4 - A user inputs a number lager than 3, and the program returns "Beep! Boop! Won't you be my neighbor?" followed by ever number leading up to and including the input_
+_Input: 5_
+_Suggested output: "Beep! Boop! Won't you be my neighbor? 4, 5"_
+
+
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Navigate your broswer to https://github.com/fetonecontrol/arrays-looping_
+* _Download the folder from this repository, and double click on the index.html file to open it in your Browser_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_OR_
+
+* _Navigate in your console to your prefered installation directory_
+* _Use the command git clone https://github.com/fetonecontrol/arrays-looping_
+* _Open any of the files in the directory in your prefered text editor for viewing/editing_
+* _Open the index.html file in your preffered browser or text editor preview function_
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{No known bugs}_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{Contact Frederick Ernest @ frederick.ernest@gmail.cm}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{Made and edited in VS code, on a MBP running OSX10.14, the languages used were : HTML, CSS, and JavaScript. The frameworks Bootstrap and jQuery were used for styling and behavior, respectively.}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{Open source under the MIT licence.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_{Frederick Ernest}_**
