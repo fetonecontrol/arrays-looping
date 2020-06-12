@@ -1,12 +1,3 @@
-// Bussiness logic
-// function translation(num) {
-//   const vocab = [
-//     "Beep!",
-//     "Boop!",
-//     "Won't you be my neighbor?",
-
-//     ]
-//   }
 function rodgers (num) {
   accceptable = [1,2,3]
   num1 = parseInt(num)
@@ -24,10 +15,23 @@ function rodgers (num) {
     alert(vocab[1])
   } else if (num1 === 1) {
     alert(vocab[0])
-  } else if (num1 > 3) {
-    numSplit2 = parseInt(num);
-    numSplit2 = num.split('');
-  }
+  } else if (num.includes(3)) {
+    alert(vocab[2])
+  } else if (num.includes(2)) {
+    alert(vocab[1])
+  } else if (num.includes(1)) {
+    alert(vocab[0])
+  } else if (num > 3) {
+    numIntiger = parseInt(num);
+    //numArray = ""
+
+    for (i =0; i <=numIntiger+1; i++) {
+      console.log(i);
+    }
+      // if (i === 1 || i.includes(1) ){
+      // numArray
+      // }
+  } 
 }
 
 
