@@ -1,15 +1,4 @@
-//Business logic
-// function range(a, b) {
-//   for (var i = 0; i <= numIntiger; ++i){
-//     yield i;
-//   }
-// }
-// Array.from(range(a, b))
-
-// var result = range(9, 18); // [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]\
-
-// console.log(result);
-function rodgers (num) {
+function rodgers(num) {
   let num1 = parseInt(num);
   let numArray = [];
   const vocab = [
@@ -35,25 +24,38 @@ function rodgers (num) {
   } else if (num > 3) {
       numIntiger = parseInt(num);
       console.log(numArray);
-    for (let i =0; i <= numIntiger; i++) {
+    for (let i=0; i <=numIntiger; i++) {
       numArray.push(i);
       stringArray = numArray.toString();
-    
-
-    }
+      }
       
     }
-
+    console.log(stringArray);
+    return stringArray;
 }
+function sub(num){
+  let arr1 = num
+  const vocab = [
+    "Beep!",
+    "Boop!",
+    "Won't you be my neighbor?",
 
+    ]
+    if (arr1.includes(1)){
+      alert("its working");
+      arr1[1].push(vocab[0]);
+      }
+  return number1;
+}
 
 // UI logic
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
-    const number = $("input#number").val();
-    rodgers(number);
+    let number = $("input#number").val();
+    let number2 = rodgers(number);
+    let number3 = sub(number2)
     $("#output").show();
-    $("#result").text(number);
+    $("#result").text(number3);
   });
 });
