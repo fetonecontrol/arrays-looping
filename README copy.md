@@ -56,7 +56,7 @@ _{Contact Frederick Ernest @ frederick.ernest@gmail.cm}_
 
 ## Technologies Used
 
-_{Made and edited in VS code, on a MBP running OSX10.14, the languages used were : HTML, CSS, and JavaScript. The frameworks Bootstrap and jQuery were used for styling and behavior, respectively.}_
+_{Made and edited in VScode, on a MBP running OSX10.14, the languages used were : HTML, CSS, and JavaScript. The frameworks Bootstrap and jQuery were used for styling and behavior, respectively.}_
 
 ### License
 
