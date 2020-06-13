@@ -6,7 +6,7 @@ function rodgers(num) {
     "Boop!",
     "Won't you be my neighbor?",
 
-    ]
+    ];
   if (isNaN(num)) {
       alert("thats not a number");
   } else if (num1 === 3 ) {
@@ -34,20 +34,43 @@ function rodgers(num) {
     return stringArray;
 }
 function sub(num){
-  let arr1 = num
+  let arr1 = num;
+  let arr2 = [];
   const vocab = [
     "Beep!",
     "Boop!",
     "Won't you be my neighbor?",
 
-    ]
+    ];
     if (arr1.includes(1)){
-      alert("its working");
-      arr1[1].push(vocab[0]);
-      }
-  return number1;
+      arr1 = vocab[0];
+      return arr1;
+    }
+  return arr2;
 }
+    // for (let i = 0; i <= arr1.length; i++) {
+    //   if (arr1[i].includes(1)){\
+    //     alert("its working");
+    //     arr1[i] = vocab[0];
+    //     }
 
+  // return arr1;
+
+
+// function duckStatModifier(statArray, multiplier) {
+//   const duckStatArray = statArray.map(function(element) {
+//     return element * multiplier + 1;
+//   });
+//   return duckStatArray;
+// }
+// for (let i = 0; i < dnaSequence.length; i +=1) {
+//   if (dnaSequence[i] === pattern) {
+//     return true;
+//   };
+//   console.log("Looped!");
+// }
+// return false;
+// }
 // UI logic
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
