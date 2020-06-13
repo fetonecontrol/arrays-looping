@@ -27,6 +27,7 @@ function rodgers(num) {
     for (let i=0; i <=numIntiger; i++) {
       numArray.push(i);
       stringArray = numArray.toString();
+      //console.log(stringArray.indexOF(1));
       }
       
     }
@@ -42,6 +43,7 @@ function sub(num){
     "Won't you be my neighbor?",
 
     ];
+    //console.log(arr1.indexOF(1));
     if (arr1.includes(1)){
       arr1 = vocab[0];
       return arr1;
