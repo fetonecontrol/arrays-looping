@@ -1,5 +1,6 @@
 function rodgers(num) {
   let num1 = parseInt(num);
+  const trigger = ["1", "2", "3",];
   let numArray = [];
   const vocab = [
     "Beep!",
@@ -27,60 +28,53 @@ function rodgers(num) {
     for (let i=0; i <=numIntiger; i++) {
       numArray.push(i);
       stringArray = numArray.toString();
-      //console.log(stringArray.indexOF(1));
-      }
-      
+      stringArray2 = stringArray.pop("3").join(vocab[2]);
+      //stringArray3 = stringArray2.split("2").join(vocab[1]);
     }
-    console.log(stringArray);
-    return stringArray;
+      // if (trigger.indexOf(stringArray.charAt(i)) >= 0)  {
+      //   stringArray.push("beep");      }
+
+
+      //stringArray3 = stringArray2.split("2").join(vocab[1]);
+  }
+    console.log(stringArray2);
+    return stringArray2;
 }
-function sub(num){
-  let arr1 = num;
-  let arr2 = [];
-  const vocab = [
-    "Beep!",
-    "Boop!",
-    "Won't you be my neighbor?",
+// function sub(num){
+//   let arr2 = num;
+//   let valid = ["1", "2", "3",];
+//   const vocab = [
+//     "Beep!",
+//     "Boop!",
+//     "Won't you be my neighbor?",
 
-    ];
-    //console.log(arr1.indexOF(1));
-    if (arr1.includes(1)){
-      arr1 = vocab[0];
-      return arr1;
-    }
-  return arr2;
-}
-    // for (let i = 0; i <= arr1.length; i++) {
-    //   if (arr1[i].includes(1)){\
-    //     alert("its working");
-    //     arr1[i] = vocab[0];
-    //     }
+//     ];
+  
+//   }
+    // if (valid.indexOf(num[0]) > -1) {
+    //   arr2 = num.splice(vocab[0]);
+    //   return arr2;
 
-  // return arr1;
+    // }
 
-
-// function duckStatModifier(statArray, multiplier) {
-//   const duckStatArray = statArray.map(function(element) {
-//     return element * multiplier + 1;
-//   });
-//   return duckStatArray;
+//     if (vowels.indexOf(str[0]) > -1) {
+//       newStr = str + "way";
+//       return newStr;
+//   } else {
+//       let firstMatch = str.match(/[aeiou]/g) || 0;
+//       let vowel = str.indexOf(firstMatch[0]);
+//       newStr = str.substring(vowel) + str.substring(0, vowel) + "ay";
+//       return newStr;
 // }
-// for (let i = 0; i < dnaSequence.length; i +=1) {
-//   if (dnaSequence[i] === pattern) {
-//     return true;
-//   };
-//   console.log("Looped!");
-// }
-// return false;
-// }
+
 // UI logic
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
     let number = $("input#number").val();
     let number2 = rodgers(number);
-    let number3 = sub(number2)
+    //let number3 = sub(number2)
     $("#output").show();
-    $("#result").text(number3);
+    $("#result").text(number2);
   });
 });
