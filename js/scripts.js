@@ -26,9 +26,17 @@ function rodgers(num) {
       numIntiger = parseInt(num);
       console.log(numArray);
     for (let i=0; i <=numIntiger; i++) {
+      if (((i -3) % 10) === 0){
+      numArray.push(vocab[2]);
+      } else if (((i -2) % 10) === 0) {
+      numArray.push(vocab[1]);
+      } else if (((i -1) % 10) === 0) {
+        numArray.push(vocab[0]);
+      } else {
       numArray.push(i);
-      stringArray = numArray.toString();
-      stringArray2 = stringArray.pop("3").join(vocab[2]);
+      }
+      // stringArray = numArray.toString();
+      // stringArray2 = stringArray.split("3").join(vocab[2]);
       //stringArray3 = stringArray2.split("2").join(vocab[1]);
     }
       // if (trigger.indexOf(stringArray.charAt(i)) >= 0)  {
@@ -37,8 +45,8 @@ function rodgers(num) {
 
       //stringArray3 = stringArray2.split("2").join(vocab[1]);
   }
-    console.log(stringArray2);
-    return stringArray2;
+    console.log(numArray);
+    return numArray;
 }
 // function sub(num){
 //   let arr2 = num;
