@@ -35,7 +35,6 @@ function rodgers(num) {
         numArray.push(i);
       }
   }
-    console.log(numArray);
     return numArray;
 }
 }
