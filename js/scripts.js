@@ -15,12 +15,12 @@ function rodgers(num) {
       alert(vocab[1])
   } else if (num1 === 1) {
       alert(vocab[0])
-  } else if (num.includes(3)) {
-      alert(vocab[2])
-  } else if (num.includes(2)) {
-      alert(vocab[1])
-  } else if (num.includes(1)) {
-      alert(vocab[0])
+  // } else if (num.includes(3)) {
+  //     alert(vocab[2])
+  // } else if (num.includes(2)) {
+  //     alert(vocab[1])
+  // } else if (num.includes(1)) {
+  //     alert(vocab[0])
   } else if (num > 3) {
       numIntiger = parseInt(num);
       console.log(numArray);
