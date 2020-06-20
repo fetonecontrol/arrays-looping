@@ -10,31 +10,27 @@ _{The purpose of this application is to showcase my understanding thus far of ar
 
 _This application can be broken down into distinct behaviors_
 
-_Behavior 4: Behavior 3 has priority over 2 and 1, and 2 has priority over 1_
+_Behavior 3 has priority over 2 and 1, and 2 has priority over 1_
 _Input: 32 or 21
 _Suggested output: "Won't you be my neighbor?" or "Boop!_
 
-_Behavior 0: - A user inputs anything other than a number._
+_Behavior 0 - A user inputs anything other than a number._
 _Input: This is a number!_
 _Suggested output: "That is not a number! Please enter a number!"_
 
-_Behavior 1: - A user inputs a number containing 1, and all digitst are replaced with "Beep!"_
+_Behavior 1 - A user inputs a number containing 1, and all digitst are replaced with "Beep!"_
 _Input: 1 or 15 or 41 or 71_
 _Suggested output: Beep!_
 
-_Behavior 2: - A user inputs a number containing 2, and all digitst are replaced with "Boop!"_
+_Behavior 2 - A user inputs a number containing 2, and all digitst are replaced with "Boop!"_
 _Input: 2 or 25 or 42 or 72_
 _Suggested output: Boop!_
 
-_Behavior 3: - A user inputs a number containing 3, and all digitst are replaced with "Won't you be my neighbor?"_
+_Behavior 3 - A user inputs a number containing 3, and all digitst are replaced with "Won't you be my neighbor?"_
 _Input: 3 or 35 or 43 or 73_
 _Suggested output: Won't you be my neighbor?_
 
-_Behavior 4: Behavior 3 has priority over 2 and 1, and 2 has priority over 1_
-_Input: 32 or 21
-_Suggested output: "Won't you be my neighbor?" or "Boop!_
-
-_Behavior 5 - A user inputs a number lager than 3, and the program returns "Beep! Boop! Won't you be my neighbor?" followed by ever number leading up to and including the input, replacing numbers that inlclude 1, 2 or 3, with their corresponding values_
+_Behavior 4 - A user inputs a number lager than 3, and the program returns "Beep! Boop! Won't you be my neighbor?" followed by ever number leading up to and including the input_
 _Input: 5_
 _Suggested output: "Beep! Boop! Won't you be my neighbor? 4, 5"_
 
@@ -60,7 +56,7 @@ _{No known bugs}_
 
 ## Support and contact details
 
-_{Contact Frederick Ernest @ frederick.ernest@gmail.com}_
+_{Contact Frederick Ernest @ frederick.ernest@gmail.cm}_
 
 ## Technologies Used
 
